@@ -1,0 +1,148 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*border: 1px solid black;*/
+}
+
+body {
+  background-color:#333;
+}
+
+header {
+  height: 100px;
+  width: 500px;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-family: 'VT323';
+  font-size: 80px;
+  color: white;
+}
+.intro {
+  position: relative;
+  font-family: 'VT323';
+  color: white;
+  font-size: 20px;
+  float: left;
+  height: 80px;
+  width: 300px;
+  margin-left: 35px;
+  display: block;
+}
+
+p {
+  font-family: 'VT323';
+  color: white;
+  font-size: 25px;
+}
+#game_container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.cards {
+  position: relative;
+  margin: auto;
+}
+#player {
+  position: absolute;
+  top: 450px;
+  left: 15%;
+  display: inline;
+
+}
+
+.playerCard {
+  height: 120px;
+  width: 90px;
+}
+
+#centerContainer {
+  position: relative;
+  top: 260px;
+  left: 47%;
+  display: inline;
+}
+
+.centerCard {
+  height: 120px;
+  width: 90px;
+  display: inline-block;
+}
+
+#computer {
+  position: absolute;
+  top: 50px;
+  left: 15%;
+  display: inline;
+}
+
+.computerCard {
+  height: 120px;
+  width: 90px;
+  display: inline-block;
+  
+}
+
+#comments {
+  position: absolute;
+  font-family: 'VT323';
+  color: white;
+  top : 19%;
+  left: 35%;
+  font-size: 20px;
+  width: fit-content;
+  height: 40px;
+  margin-top: 280px;
+  margin-left: 90px;
+  text-align: center;
+}
+
+.action {
+  position: absolute;
+  font-family: 'VT323';
+  color: white;
+  top : 20%;
+  left: 18%;
+  font-size: 30px;
+  width: 180px;
+  height: 40px;
+  margin-top: 280px;
+  margin-left: 90px;
+  text-align: center;
+  border: 3px solid white;
+}
+.action1 {
+  position: absolute;
+  font-family: 'VT323';
+  color: white;
+  top : 20%;
+  left: 58%;
+  font-size: 30px;
+  width: 180px;
+  height: 40px;
+  margin-top: 280px;
+  margin-left: 90px;
+  text-align: center;
+  border: 3px solid white;
+}
+
+.score_container {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 0%;
+  left: 2%;
+  border: 3px solid white;
+  padding: 8px;
+}
+
+p {
+  font-size: 15px;
+}
