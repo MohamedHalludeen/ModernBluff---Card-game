@@ -1,0 +1,19 @@
+.startBtn {
+    border-radius: 30%;
+    background-color: transparent;
+    padding: 16px 25px;
+    position: absolute;
+    left: 42%;
+    top : 43%;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.startBtn:hover {
+    background-color: white;
+    color: #333;
+}

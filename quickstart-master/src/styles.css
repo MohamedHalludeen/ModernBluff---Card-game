@@ -1,0 +1,7 @@
+
+
+.backdrop_image {
+  background-color: black;
+  box-sizing: border-box;
+  filter: brightness(50%);
+}
